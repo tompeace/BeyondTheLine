@@ -1,0 +1,40 @@
+---
+title: Page Title
+---
+
+/ Assets 
+
+- content_for(:javascripts) do
+  = javascript_include_tag  "home"
+
+- content_for(:stylesheets) do
+  = stylesheet_link_tag  "home"
+
+/ Haml
+%header.nav--header
+  %h1.page--title
+    BEYOND THE LINE 
+
+
+  %nav.nav
+    .container 
+      %ul
+        %li
+          %a{:href => "#"}
+            Home
+        %li
+          %a{:href => "content/media"}
+            Media
+        %li
+          %a{:href => "content/news"}
+            News
+        %li
+          %a{:href => "content/contact"}
+            Contact
+        %li
+          %a{:href => "content/credits"}
+            Credits
+%p
+  .description
+  During the Welsh Mining strikes of 1984-1985, Llewelyn crosses the picket line to go back to work in order to provide for his family. In doing this he becomes a scab, an outcast from his community. He is quickly forced to face the consequences of his actions, and face up to his brother, the village union representative.
+

@@ -1,0 +1,37 @@
+---
+title: BeyondTheLine/Contact
+---
+
+/ Assets 
+
+- content_for(:javascripts) do
+  = javascript_include_tag  "home"
+
+- content_for(:stylesheets) do
+  = stylesheet_link_tag  "home"
+
+/ Haml
+
+%header.nav--header
+  %h1.page--title
+    BEYOND THE LINE 
+
+
+  %nav.nav
+    .container 
+      %ul
+        %li
+          %a{:href => "../index.html"}
+            Home
+        %li
+          %a{:href => "../content/media"}
+            Media
+        %li
+          %a{:href => "../content/news"}
+            News
+        %li
+          %a{:href => "../content/contact"}
+            Contact
+        %li
+          %a{:href => "../content/credits"}
+            Credits

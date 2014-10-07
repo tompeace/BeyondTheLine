@@ -1,0 +1,33 @@
+// ==========================================================================
+//
+// Base CSS. 
+// Only include things which need to appear in *every* page
+//
+//
+
+@import "../../bower_components/normalize-css/normalize";
+// Installed as a gem for lots of annoying reasons
+@import "bourbon";
+
+
+  
+body {
+  font-family: dense;
+  font-size: 40px;
+  text-align: center; }
+
+p {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto; }   
+
+
+
+.description {
+  font-size: 20px; }
+
+
+ul {
+  margin: 0;
+  padding: 0;
+}
